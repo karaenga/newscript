@@ -1,0 +1,542 @@
+2019-05-14 16:57:11.395 [YYPush-App] [13744:14078]YYPush.asyncinitAllPush use ThirdPartyPush, manufacturer=OPPO
+2019-05-14 16:57:11.454 [YYPush-App] [13744:14078]PushDBHelper.onCreate ver=3
+2019-05-14 16:57:11.501 [YYPush-App] [13744:14078]PushReporter.setMetricsScodeFromManifest, will upload thirdparty tokenstate, get metricsScode from AndroidManifest, metricsScode = 0
+2019-05-14 16:57:11.502 [YYPush-App] [13744:14078]YYPushDeviceInfoHttp.doReportThiradpartyTokenTask connect to Production Environment
+2019-05-14 16:57:11.517 [YYPush-App] [13744:14078]YYTokenLoginHttp.registerYYPush, begin to registerYYPush.
+2019-05-14 16:57:11.518 [YYPush-App] [13744:14078]YYTokenLoginHttp.registerYYPush, login to Production Environment
+2019-05-14 16:57:11.532 [YYPush-App] [13744:14078]YYPush.registerYYPush, call syncSubmitFrom, appid = 1236618350
+2019-05-14 16:57:11.533 [YYPush-App] [13744:14078]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = YYLoginReqByHttpCnt
+2019-05-14 16:57:11.534 [YYPush-App] [13744:14078]ReportsMetrics::reportReturnCode, scode = 0, uri = YYLoginstate, code = YYLoginReqByHttpCnt
+2019-05-14 16:57:11.546 [YYPush-App] [13744:14078]YYTokenLoginHttp.doSubmit start to upload
+2019-05-14 16:57:12.098 [YYPush-App] [13744:14078]YYTokenLoginHttp.doSubmit, mResult.content = { "uri": 775684,"deviceID": "9acff05988c48d125892cd79104659b3","tokenID": "000002029413791309db","resCode": 200,"ctrlPolicy":{ "pixelSwitch": "true"}}
+2019-05-14 16:57:12.101 [YYPush-App] [13744:14078]TokenStore.dispatcherToken, token from: yypush,value:000002029413791309db
+2019-05-14 16:57:12.103 [YYPush-App] [13744:14078]TokenStore.addToken, type = yypush,token = 000002029413791309db
+2019-05-14 16:57:12.122 [YYPush-App] [13744:14078]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = YYLoginResByHttpSucCnt
+2019-05-14 16:57:12.129 [YYPush-App] [13744:14078]ReportsMetrics::reportReturnCode, scode = 0, uri = YYLoginstate, code = YYLoginResByHttpSucCnt
+2019-05-14 16:57:12.131 [YYPush-App] [13744:14078]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = YyTokenResEventId
+2019-05-14 16:57:12.132 [YYPush-App] [13744:14078]YYPush.isJsonObject exception:org.json.JSONException: Value dB_E1oVvPNk of type java.lang.String cannot be converted to JSONObject
+2019-05-14 16:57:12.133 [YYPush-App] [13744:14078]YYPush.asyncinitAllPush Fcm Token:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 16:57:12.137 [YYPush-App] [13744:14078]TokenStore.dispatcherToken, token from: FCM,value:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 16:57:12.138 [YYPush-App] [13744:14078]TokenStore.addToken, type = FCM,token = dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 16:57:12.140 [YYPush-App] [13744:14078]PushDBHelper.addStrKey2StrVal key=DBKeyFcmToken, value=dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 16:57:12.141 [YYPush-App] [13744:13744]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-14 16:57:12.142 [YYPush-App] [13744:13744]YYPushMsgReceiver.onReceive intent contains token, token=000002029413791309db, tokentype = yypush
+2019-05-14 16:57:12.169 [YYPush-App] [13744:14078]YYPush.asyncinitAllPush, call IYYPushTokenCallback.onSuccess, token = fcm:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 16:57:12.170 [YYPush-App] [13744:13833]YYSetTagHttp.setTag connect to Production Environment
+2019-05-14 16:57:12.171 [YYPush-App] [13744:14078]SystemUtil.isMiUi not xiaomiphone exception:java.io.FileNotFoundException: /system/build.prop (Permission denied)
+2019-05-14 16:57:12.175 [YYPush-App] [13744:14078]TokenStore.getUnReportedStasticsFromDb
+2019-05-14 16:57:12.180 [YYPush-App] [13744:14078]PushDBHelper.getUnReportedStatistics 
+2019-05-14 16:57:12.181 [YYPush-App] [13744:14078]PushDBHelper.getUnReportedStatistics size = 0
+2019-05-14 16:57:12.182 [YYPush-App] [13744:13744]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-14 16:57:12.183 [YYPush-App] [13744:13744]YYPushMsgReceiver.onReceive intent contains token, token=dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6, tokentype = FCM
+2019-05-14 16:57:12.185 [YYPush-App] [13744:14078]YYPush.asyncinitAllPush , db has no reportStastics
+2019-05-14 16:57:12.186 [YYPush-App] [13744:14097]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = setTagReqByHttpCnt
+2019-05-14 16:57:12.187 [YYPush-App] [13744:14097]ReportsMetrics::reportReturnCode, scode = 0, uri = SetTagByHttpState, code = setTagReqByHttpCnt
+2019-05-14 16:57:12.188 [YYPush-App] [13744:14097]YYSetTagHttp.doSubmit yytoken is not null
+2019-05-14 16:57:12.189 [YYPush-App] [13744:14097]YYSetTagHttp.doSubmit start to upload
+2019-05-14 16:57:12.879 [YYPush-App] [13744:14097]YYSetTagHttp.doSubmit mResult content:{ "uri": 1080324,"appID": 1236618350,"resCode": 200}
+2019-05-14 16:57:12.883 [YYPush-App] [13744:14097]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = SetTagResEventId
+2019-05-14 16:57:12.885 [YYPush-App] [13744:14097]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = setTagResByHttpSucCnt
+2019-05-14 16:57:12.886 [YYPush-App] [13744:14097]ReportsMetrics::reportReturnCode, scode = 0, uri = SetTagByHttpState, code = setTagResByHttpSucCnt
+2019-05-14 16:57:12.886 [YYPush-App] [13744:14097]TokenStore.dispatchSetTagRes, appID/rescode = 1236618350/200
+2019-05-14 16:57:12.943 [YYPush-App] [13744:13744]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-14 16:57:12.944 [YYPush-App] [13744:13744]YYPushMsgReceiver.onReceive intent contains set tag res.
+2019-05-14 16:57:23.673 [YYPush-App] [13744:13744]TokenStore.getSysToken:  
+2019-05-14 16:57:23.688 [YYPush-App] [13744:13744]TokenStore.getFcmToken: dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 16:57:23.690 [YYPush-App] [13744:13744]YYTokenBindHttp.bindAccount, connect to Production Environment
+2019-05-14 16:57:23.692 [YYPush-App] [13744:13744]YYTokenBindHttp.bindAccount, call asyncSubmitFrom, appid = 1236618350, account = 139608367
+2019-05-14 16:57:23.694 [YYPush-App] [13744:13806]YYSetTagHttp.setTag connect to Production Environment
+2019-05-14 16:57:23.703 [YYPush-App] [13744:14332]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = appBindReqByHttpCnt
+2019-05-14 16:57:23.706 [YYPush-App] [13744:14332]ReportsMetrics::reportReturnCode, scode = 0, uri = AppBindByHttpState, code = appBindReqByHttpCnt
+2019-05-14 16:57:23.735 [YYPush-App] [13744:14333]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = setTagReqByHttpCnt
+2019-05-14 16:57:23.736 [YYPush-App] [13744:14333]ReportsMetrics::reportReturnCode, scode = 0, uri = SetTagByHttpState, code = setTagReqByHttpCnt
+2019-05-14 16:57:23.754 [YYPush-App] [13744:14332]YYTokenBindHttp.isTokenValid yytoken is not null
+2019-05-14 16:57:23.755 [YYPush-App] [13744:14333]YYSetTagHttp.doSubmit yytoken is not null
+2019-05-14 16:57:23.756 [YYPush-App] [13744:14333]YYSetTagHttp.doSubmit start to upload
+2019-05-14 16:57:23.789 [YYPush-App] [13744:14332]TokenStore.getFcmToken: dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 16:57:23.790 [YYPush-App] [13744:14332]YYTokenBindHttp.isTokenValid fcmToken is not empty
+2019-05-14 16:57:23.790 [YYPush-App] [13744:14332]YYTokenBindHttp.doSubmit start to upload
+2019-05-14 16:57:24.766 [YYPush-App] [13744:14333]YYSetTagHttp.doSubmit mResult content:{ "uri": 1080324,"appID": 1236618350,"resCode": 200}
+2019-05-14 16:57:24.770 [YYPush-App] [13744:14333]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = SetTagResEventId
+2019-05-14 16:57:24.771 [YYPush-App] [13744:14333]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = setTagResByHttpSucCnt
+2019-05-14 16:57:24.772 [YYPush-App] [13744:14333]ReportsMetrics::reportReturnCode, scode = 0, uri = SetTagByHttpState, code = setTagResByHttpSucCnt
+2019-05-14 16:57:24.777 [YYPush-App] [13744:14333]TokenStore.dispatchSetTagRes, appID/rescode = 1236618350/200
+2019-05-14 16:57:24.879 [YYPush-App] [13744:14332]YYTokenBindHttp.doSubmit, mResult.content = { "uri": 1078276,"appID": 1236618350,"account": "139608367","resCode": 200}
+2019-05-14 16:57:24.913 [YYPush-App] [13744:14332]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = AppBindResByHttpEventId
+2019-05-14 16:57:24.915 [YYPush-App] [13744:14332]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = appBindResByHttpSucCnt
+2019-05-14 16:57:24.920 [YYPush-App] [13744:14332]ReportsMetrics::reportReturnCode, scode = 0, uri = AppBindByHttpState, code = appBindResByHttpSucCnt
+2019-05-14 16:57:24.921 [YYPush-App] [13744:14332]TokenStore.dispatchBindRes, appId/account/rescode = 1236618350/139608367/200
+2019-05-14 16:57:25.509 [YYPush-App] [13744:13744]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-14 16:57:25.510 [YYPush-App] [13744:13744]YYPushMsgReceiver.onReceive intent contains set tag res.
+2019-05-14 16:57:25.517 [YYPush-App] [13744:13744]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-14 16:57:25.519 [YYPush-App] [13744:13744]YYPushMsgReceiver.onReceive intent contains reg push app res.
+2019-05-14 16:57:26.525 [YYPush-App] [13744:14080]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-14 16:57:26.526 [YYPush-App] [13744:14080]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-14 16:57:26.561 [YYPush-App] [13744:14080]YYPushDeviceInfoHttp.doSubmit yytoken is not null
+2019-05-14 16:57:26.573 [YYPush-App] [13744:14080]YYPushDeviceInfoHttp.doSubmit start to upload deviceinfo by http
+2019-05-14 16:57:27.082 [YYPush-App] [13744:14080]YYPushDeviceInfoHttp.doSubmit result content:{ "uri": 1082116,"appID": 1236618350,"resCode": 200,"tokenID": "000002029413791309db","thirdToken":[{ "token": "dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6","type": 128}]}
+2019-05-14 16:57:27.112 [YYPush-App] [13744:14080]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-14 16:57:27.114 [YYPush-App] [13744:14080]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-14 16:57:27.116 [YYPush-App] [13744:14080]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-14 16:57:41.542 [YYPush-App] [13744:14379]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-14 16:57:41.559 [YYPush-App] [13744:14379]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-14 16:57:41.617 [YYPush-App] [13744:14379]YYPushDeviceInfoHttp.doSubmit thirdparty token has already uploaded, do not upload
+2019-05-14 16:57:41.622 [YYPush-App] [13744:14379]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-14 16:57:41.623 [YYPush-App] [13744:14379]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-14 16:57:41.624 [YYPush-App] [13744:14379]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-14 16:57:56.544 [YYPush-App] [13744:14505]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-14 16:57:56.545 [YYPush-App] [13744:14505]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-14 16:57:56.547 [YYPush-App] [13744:14505]YYPushDeviceInfoHttp.doSubmit thirdparty token has already uploaded, do not upload
+2019-05-14 16:57:56.548 [YYPush-App] [13744:14505]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-14 16:57:56.550 [YYPush-App] [13744:14505]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-14 16:57:56.551 [YYPush-App] [13744:14505]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-14 17:02:18.939 [YYPush-App] [16614:16737]TokenStore.dispactherMsg from json msgid=6122019080731396980, channeltype = FCM, payload = {"push_source":1,"friend":{"session_id":"s_139608367_154404873","from_uid":154404873},"type":4}, pushid = 364030709414835378
+2019-05-14 17:02:18.941 [YYPush-App] [16614:16737]TokenStore.getFcmToken: dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 17:02:18.942 [YYPush-App] [16614:16737]PushDBHelper.recordReportStatistics pushchannel:FCM stat:2
+2019-05-14 17:02:18.943 [YYPush-App] [16614:16737]PushDBHelper.recordReportStatistics successfully save msgid to db, msgid:6122019080731396980
+2019-05-14 17:02:18.944 [YYPush-App] [16614:16737]YYPushReportStatisticsHttp.doReportStatisticsByHttp jsonarray：[{"type":128,"msgID":6122019080731396980,"pushID":364030709414835378,"stat":2,"thirdToken":"dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6"}]
+2019-05-14 17:02:18.946 [YYPush-App] [16614:16737]YYPushReportStatisticsHttp.doReportStatisticsByHttp, connect to Production Environment
+2019-05-14 17:02:18.946 [YYPush-App] [16614:16737]PushReporter.reportNotificationEventToHiido, label:FCM, eid:PushMessageArrived
+2019-05-14 17:02:18.947 [YYPush-App] [16614:16750]YYPushReportStatisticsHttp.doSubmit start to upload
+2019-05-14 17:02:18.949 [YYPush-App] [16614:16614]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-14 17:02:18.951 [YYPush-App] [16614:16750]YYPushReportStatisticsHttp.doSubmit yytoken is null
+2019-05-14 17:02:18.952 [YYPush-App] [16614:16614]---- log start  3.0.670 ----
+2019-05-14 17:02:18.953 [YYPush-App] [16614:16614]YYPushMsgReceiver.onReceive intent contens payload.
+2019-05-14 17:02:18.954 [YYPush-App] [16614:16912]YYPush.asyncinitAllPush use ThirdPartyPush, manufacturer=OPPO
+2019-05-14 17:02:18.962 [YYPush-App] [16614:16912]PushReporter.setMetricsScodeFromManifest, will upload thirdparty tokenstate, get metricsScode from AndroidManifest, metricsScode = 0
+2019-05-14 17:02:18.963 [YYPush-App] [16614:16912]PushReporter.initHiidoSdk, begin to initHiidoSdk.
+2019-05-14 17:02:18.966 [YYPush-App] [16614:16912]YYPushDeviceInfoHttp.doReportThiradpartyTokenTask connect to Production Environment
+2019-05-14 17:02:18.985 [YYPush-App] [16614:16912]YYTokenLoginHttp.registerYYPush, begin to registerYYPush.
+2019-05-14 17:02:18.986 [YYPush-App] [16614:16912]YYTokenLoginHttp.registerYYPush, login to Production Environment
+2019-05-14 17:02:18.987 [YYPush-App] [16614:16912]YYPush.registerYYPush, call syncSubmitFrom, appid = 1236618350
+2019-05-14 17:02:18.988 [YYPush-App] [16614:16912]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = YYLoginReqByHttpCnt
+2019-05-14 17:02:18.989 [YYPush-App] [16614:16912]ReportsMetrics::reportReturnCode, scode = 0, uri = YYLoginstate, code = YYLoginReqByHttpCnt
+2019-05-14 17:02:18.990 [YYPush-App] [16614:16912]YYTokenLoginHttp.doSubmit start to upload
+2019-05-14 17:02:20.938 [YYPush-App] [16614:16664]TokenStore.getSysToken:  
+2019-05-14 17:02:20.940 [YYPush-App] [16614:16664]TokenStore.getFcmToken: dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 17:02:20.951 [YYPush-App] [16614:16664]YYTokenBindHttp.bindAccount, connect to Production Environment
+2019-05-14 17:02:20.967 [YYPush-App] [16614:16664]YYTokenBindHttp.bindAccount, call asyncSubmitFrom, appid = 1236618350, account = 139608367
+2019-05-14 17:02:20.968 [YYPush-App] [16614:16933]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = appBindReqByHttpCnt
+2019-05-14 17:02:20.969 [YYPush-App] [16614:16933]ReportsMetrics::reportReturnCode, scode = 0, uri = AppBindByHttpState, code = appBindReqByHttpCnt
+2019-05-14 17:02:20.969 [YYPush-App] [16614:16933]YYTokenBindHttp.isTokenValid yytoken is null
+2019-05-14 17:02:24.521 [YYPush-App] [16614:16750]YYPushReportStatisticsHttp.doSubmit start to upload
+2019-05-14 17:02:24.522 [YYPush-App] [16614:16750]YYPushReportStatisticsHttp.doSubmit yytoken is null
+2019-05-14 17:02:24.756 [YYPush-App] [16614:16912]YYTokenLoginHttp.doSubmit, mResult.content = { "uri": 775684,"deviceID": "9acff05988c48d125892cd79104659b3","tokenID": "000002029413791309db","resCode": 200,"ctrlPolicy":{ "pixelSwitch": "true"}}
+2019-05-14 17:02:24.758 [YYPush-App] [16614:16912]TokenStore.dispatcherToken, token from: yypush,value:000002029413791309db
+2019-05-14 17:02:24.764 [YYPush-App] [16614:16912]TokenStore.addToken, type = yypush,token = 000002029413791309db
+2019-05-14 17:02:24.811 [YYPush-App] [16614:16912]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = YYLoginResByHttpSucCnt
+2019-05-14 17:02:24.814 [YYPush-App] [16614:16912]ReportsMetrics::reportReturnCode, scode = 0, uri = YYLoginstate, code = YYLoginResByHttpSucCnt
+2019-05-14 17:02:24.815 [YYPush-App] [16614:16912]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = YyTokenResEventId
+2019-05-14 17:02:24.835 [YYPush-App] [16614:16614]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-14 17:02:24.838 [YYPush-App] [16614:16614]YYPushMsgReceiver.onReceive intent contains token, token=000002029413791309db, tokentype = yypush
+2019-05-14 17:02:24.842 [YYPush-App] [16614:16912]YYPush.isJsonObject exception:org.json.JSONException: Value dB_E1oVvPNk of type java.lang.String cannot be converted to JSONObject
+2019-05-14 17:02:24.844 [YYPush-App] [16614:16912]YYPush.asyncinitAllPush Fcm Token:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 17:02:24.845 [YYPush-App] [16614:16912]TokenStore.dispatcherToken, token from: FCM,value:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 17:02:24.846 [YYPush-App] [16614:16912]TokenStore.addToken, type = FCM,token = dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 17:02:24.858 [YYPush-App] [16614:16912]PushDBHelper.updateStrKey2StrVal, key=DBKeyFcmToken, value=dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 17:02:24.890 [YYPush-App] [16614:16614]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-14 17:02:24.892 [YYPush-App] [16614:16614]YYPushMsgReceiver.onReceive intent contains token, token=dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6, tokentype = FCM
+2019-05-14 17:02:24.903 [YYPush-App] [16614:16912]YYPush.asyncinitAllPush, call IYYPushTokenCallback.onSuccess, token = fcm:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 17:02:24.906 [YYPush-App] [16614:16912]SystemUtil.isMiUi not xiaomiphone exception:java.io.FileNotFoundException: /system/build.prop (Permission denied)
+2019-05-14 17:02:24.908 [YYPush-App] [16614:16912]TokenStore.getUnReportedStasticsFromDb
+2019-05-14 17:02:24.916 [YYPush-App] [16614:16912]PushDBHelper.getUnReportedStatistics 
+2019-05-14 17:02:24.953 [YYPush-App] [16614:16651]YYSetTagHttp.setTag connect to Production Environment
+2019-05-14 17:02:24.957 [YYPush-App] [16614:16912]PushDBHelper.getUnReportedStatistics size = 1
+2019-05-14 17:02:24.958 [YYPush-App] [16614:16912]YYPush.asyncinitAllPush , db has reportStastics begin to call doReportStatisticsByHttp
+2019-05-14 17:02:24.959 [YYPush-App] [16614:16912]YYPushReportStatisticsHttp.doReportStatisticsByHttp jsonarray：[{"type":128,"msgID":6122019080731396980,"pushID":364030709414835378,"stat":2,"thirdToken":"dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6"}]
+2019-05-14 17:02:24.960 [YYPush-App] [16614:16912]YYPushReportStatisticsHttp.doReportStatisticsByHttp has not finish upload, reportstate:REPORT_FAILED
+2019-05-14 17:02:24.963 [YYPush-App] [16614:16954]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = setTagReqByHttpCnt
+2019-05-14 17:02:24.964 [YYPush-App] [16614:16954]ReportsMetrics::reportReturnCode, scode = 0, uri = SetTagByHttpState, code = setTagReqByHttpCnt
+2019-05-14 17:02:24.965 [YYPush-App] [16614:16954]YYSetTagHttp.doSubmit yytoken is not null
+2019-05-14 17:02:24.966 [YYPush-App] [16614:16954]YYSetTagHttp.doSubmit start to upload
+2019-05-14 17:02:26.467 [YYPush-App] [16614:16933]YYTokenBindHttp.isTokenValid yytoken is not null
+2019-05-14 17:02:26.468 [YYPush-App] [16614:16933]TokenStore.getFcmToken: dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-14 17:02:26.469 [YYPush-App] [16614:16933]YYTokenBindHttp.isTokenValid fcmToken is not empty
+2019-05-14 17:02:26.470 [YYPush-App] [16614:16933]YYTokenBindHttp.doSubmit start to upload
+2019-05-14 17:02:26.566 [YYPush-App] [16614:16954]YYSetTagHttp.doSubmit mResult content:{ "uri": 1080324,"appID": 1236618350,"resCode": 200}
+2019-05-14 17:02:26.597 [YYPush-App] [16614:16954]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = SetTagResEventId
+2019-05-14 17:02:26.608 [YYPush-App] [16614:16954]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = setTagResByHttpSucCnt
+2019-05-14 17:02:26.616 [YYPush-App] [16614:16954]ReportsMetrics::reportReturnCode, scode = 0, uri = SetTagByHttpState, code = setTagResByHttpSucCnt
+2019-05-14 17:02:26.620 [YYPush-App] [16614:16954]TokenStore.dispatchSetTagRes, appID/rescode = 1236618350/200
+2019-05-14 17:02:26.622 [YYPush-App] [16614:16614]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-14 17:02:26.623 [YYPush-App] [16614:16614]YYPushMsgReceiver.onReceive intent contains set tag res.
+2019-05-14 17:02:27.550 [YYPush-App] [16614:16933]YYTokenBindHttp.doSubmit, mResult.content = { "uri": 1078276,"appID": 1236618350,"account": "139608367","resCode": 200}
+2019-05-14 17:02:27.553 [YYPush-App] [16614:16933]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = AppBindResByHttpEventId
+2019-05-14 17:02:27.559 [YYPush-App] [16614:16933]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = appBindResByHttpSucCnt
+2019-05-14 17:02:27.563 [YYPush-App] [16614:16933]ReportsMetrics::reportReturnCode, scode = 0, uri = AppBindByHttpState, code = appBindResByHttpSucCnt
+2019-05-14 17:02:27.565 [YYPush-App] [16614:16933]TokenStore.dispatchBindRes, appId/account/rescode = 1236618350/139608367/200
+2019-05-14 17:02:27.566 [YYPush-App] [16614:16614]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-14 17:02:27.567 [YYPush-App] [16614:16614]YYPushMsgReceiver.onReceive intent contains reg push app res.
+2019-05-14 17:02:33.973 [YYPush-App] [16614:16914]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-14 17:02:33.975 [YYPush-App] [16614:16914]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-14 17:02:33.991 [YYPush-App] [16614:16914]YYPushDeviceInfoHttp.doSubmit yytoken is not null
+2019-05-14 17:02:33.992 [YYPush-App] [16614:16914]YYPushDeviceInfoHttp.doSubmit start to upload deviceinfo by http
+2019-05-14 17:02:34.522 [YYPush-App] [16614:16750]YYPushReportStatisticsHttp.reportTask run report failed
+2019-05-14 17:02:34.669 [YYPush-App] [16614:16914]YYPushDeviceInfoHttp.doSubmit result content:{ "uri": 1082116,"appID": 1236618350,"resCode": 200,"tokenID": "000002029413791309db","thirdToken":[{ "token": "dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6","type": 128}]}
+2019-05-14 17:02:34.672 [YYPush-App] [16614:16914]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-14 17:02:34.674 [YYPush-App] [16614:16914]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-14 17:02:34.675 [YYPush-App] [16614:16914]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-14 17:02:48.979 [YYPush-App] [16614:17055]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-14 17:02:48.998 [YYPush-App] [16614:17055]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-14 17:02:49.017 [YYPush-App] [16614:17055]YYPushDeviceInfoHttp.doSubmit thirdparty token has already uploaded, do not upload
+2019-05-14 17:02:49.019 [YYPush-App] [16614:17055]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-14 17:02:49.024 [YYPush-App] [16614:17055]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-14 17:02:49.025 [YYPush-App] [16614:17055]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-14 17:03:03.984 [YYPush-App] [16614:17140]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-14 17:03:03.994 [YYPush-App] [16614:17140]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-14 17:03:04.032 [YYPush-App] [16614:17140]YYPushDeviceInfoHttp.doSubmit thirdparty token has already uploaded, do not upload
+2019-05-14 17:03:04.033 [YYPush-App] [16614:17140]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-14 17:03:04.034 [YYPush-App] [16614:17140]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-14 17:03:04.035 [YYPush-App] [16614:17140]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-15 16:32:28.768 [YYPush-App] [7837:8466]YYPush.asyncinitAllPush use ThirdPartyPush, manufacturer=OPPO
+2019-05-15 16:32:28.780 [YYPush-App] [7837:8466]PushReporter.setMetricsScodeFromManifest, will upload thirdparty tokenstate, get metricsScode from AndroidManifest, metricsScode = 0
+2019-05-15 16:32:28.781 [YYPush-App] [7837:8466]PushReporter.initHiidoSdk, begin to initHiidoSdk.
+2019-05-15 16:32:28.784 [YYPush-App] [7837:8466]YYPushDeviceInfoHttp.doReportThiradpartyTokenTask connect to Production Environment
+2019-05-15 16:32:28.796 [YYPush-App] [7837:8466]YYTokenLoginHttp.registerYYPush, begin to registerYYPush.
+2019-05-15 16:32:28.850 [YYPush-App] [7837:8466]YYTokenLoginHttp.registerYYPush, login to Production Environment
+2019-05-15 16:32:28.872 [YYPush-App] [7837:8466]YYPush.registerYYPush, call syncSubmitFrom, appid = 1236618350
+2019-05-15 16:32:28.875 [YYPush-App] [7837:8466]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = YYLoginReqByHttpCnt
+2019-05-15 16:32:28.881 [YYPush-App] [7837:8466]ReportsMetrics::reportReturnCode, scode = 0, uri = YYLoginstate, code = YYLoginReqByHttpCnt
+2019-05-15 16:32:28.885 [YYPush-App] [7837:8466]YYTokenLoginHttp.doSubmit start to upload
+2019-05-15 16:32:29.609 [YYPush-App] [7837:8466]YYTokenLoginHttp.doSubmit, mResult.content = { "uri": 775684,"deviceID": "9acff05988c48d125892cd79104659b3","tokenID": "000002029413791309db","resCode": 200,"ctrlPolicy":{ "pixelSwitch": "true"}}
+2019-05-15 16:32:29.613 [YYPush-App] [7837:8466]TokenStore.dispatcherToken, token from: yypush,value:000002029413791309db
+2019-05-15 16:32:29.614 [YYPush-App] [7837:8466]TokenStore.addToken, type = yypush,token = 000002029413791309db
+2019-05-15 16:32:29.633 [YYPush-App] [7837:8466]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = YYLoginResByHttpSucCnt
+2019-05-15 16:32:29.634 [YYPush-App] [7837:8466]ReportsMetrics::reportReturnCode, scode = 0, uri = YYLoginstate, code = YYLoginResByHttpSucCnt
+2019-05-15 16:32:29.635 [YYPush-App] [7837:8466]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = YyTokenResEventId
+2019-05-15 16:32:29.636 [YYPush-App] [7837:8466]YYPush.isJsonObject exception:org.json.JSONException: Value dB_E1oVvPNk of type java.lang.String cannot be converted to JSONObject
+2019-05-15 16:32:29.640 [YYPush-App] [7837:8466]YYPush.asyncinitAllPush Fcm Token:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-15 16:32:29.643 [YYPush-App] [7837:8466]TokenStore.dispatcherToken, token from: FCM,value:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-15 16:32:29.644 [YYPush-App] [7837:8466]TokenStore.addToken, type = FCM,token = dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-15 16:32:29.647 [YYPush-App] [7837:7837]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-15 16:32:29.648 [YYPush-App] [7837:8466]PushDBHelper.updateStrKey2StrVal, key=DBKeyFcmToken, value=dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-15 16:32:29.649 [YYPush-App] [7837:7837]YYPushMsgReceiver.onReceive intent contains token, token=000002029413791309db, tokentype = yypush
+2019-05-15 16:32:29.668 [YYPush-App] [7837:8466]YYPush.asyncinitAllPush, call IYYPushTokenCallback.onSuccess, token = fcm:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-15 16:32:29.670 [YYPush-App] [7837:7837]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-15 16:32:29.671 [YYPush-App] [7837:7910]YYSetTagHttp.setTag connect to Production Environment
+2019-05-15 16:32:29.672 [YYPush-App] [7837:7837]YYPushMsgReceiver.onReceive intent contains token, token=dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6, tokentype = FCM
+2019-05-15 16:32:29.673 [YYPush-App] [7837:8466]SystemUtil.isMiUi not xiaomiphone exception:java.io.FileNotFoundException: /system/build.prop (Permission denied)
+2019-05-15 16:32:29.674 [YYPush-App] [7837:8466]TokenStore.getUnReportedStasticsFromDb
+2019-05-15 16:32:29.676 [YYPush-App] [7837:8466]PushDBHelper.getUnReportedStatistics 
+2019-05-15 16:32:29.677 [YYPush-App] [7837:8485]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = setTagReqByHttpCnt
+2019-05-15 16:32:29.678 [YYPush-App] [7837:8485]ReportsMetrics::reportReturnCode, scode = 0, uri = SetTagByHttpState, code = setTagReqByHttpCnt
+2019-05-15 16:32:29.679 [YYPush-App] [7837:8466]PushDBHelper.getUnReportedStatistics size = 1
+2019-05-15 16:32:29.680 [YYPush-App] [7837:8466]YYPush.asyncinitAllPush , db has reportStastics begin to call doReportStatisticsByHttp
+2019-05-15 16:32:29.681 [YYPush-App] [7837:8485]YYSetTagHttp.doSubmit yytoken is not null
+2019-05-15 16:32:29.682 [YYPush-App] [7837:8485]YYSetTagHttp.doSubmit start to upload
+2019-05-15 16:32:29.683 [YYPush-App] [7837:8466]YYPushReportStatisticsHttp.doReportStatisticsByHttp jsonarray：[{"type":128,"msgID":6122019080731396980,"pushID":364030709414835378,"stat":2,"thirdToken":"dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6"}]
+2019-05-15 16:32:29.684 [YYPush-App] [7837:8466]YYPushReportStatisticsHttp.doReportStatisticsByHttp, connect to Production Environment
+2019-05-15 16:32:29.685 [YYPush-App] [7837:8487]YYPushReportStatisticsHttp.doSubmit start to upload
+2019-05-15 16:32:29.685 [YYPush-App] [7837:8487]YYPushReportStatisticsHttp.doSubmit yytoken is not null
+2019-05-15 16:32:30.284 [YYPush-App] [7837:8487]YYPushReportStatisticsHttp.doSubmit responContent:{ "uri": 1057540,"resCode": 200,"tokenID": "000002029413791309db","pushMsgStat":[{ "type": 128,"msgID": 6122019080731396980,"pushID": 364030709414835378,"stat": 2,"thirdToken": "dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6"}]}
+2019-05-15 16:32:30.285 [YYPush-App] [7837:8487]PushDBHelper.clearReportStatistics, msgid : 6122019080731396980, state:2
+2019-05-15 16:32:30.293 [YYPush-App] [7837:8485]YYSetTagHttp.doSubmit mResult content:{ "uri": 1080324,"appID": 1236618350,"resCode": 200}
+2019-05-15 16:32:30.294 [YYPush-App] [7837:8485]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = SetTagResEventId
+2019-05-15 16:32:30.295 [YYPush-App] [7837:8485]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = setTagResByHttpSucCnt
+2019-05-15 16:32:30.300 [YYPush-App] [7837:8485]ReportsMetrics::reportReturnCode, scode = 0, uri = SetTagByHttpState, code = setTagResByHttpSucCnt
+2019-05-15 16:32:30.301 [YYPush-App] [7837:8485]TokenStore.dispatchSetTagRes, appID/rescode = 1236618350/200
+2019-05-15 16:32:30.302 [YYPush-App] [7837:7837]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-15 16:32:30.305 [YYPush-App] [7837:7837]YYPushMsgReceiver.onReceive intent contains set tag res.
+2019-05-15 16:32:30.310 [YYPush-App] [7837:8487]PushDBHelper.clearReportStatistics, delete msg from db
+2019-05-15 16:32:30.317 [YYPush-App] [7837:8487]YYPushReportStatisticsHttp.reportTask run report success
+2019-05-15 16:32:30.318 [YYPush-App] [7837:8487]TokenStore.getUnReportedStasticsFromDb
+2019-05-15 16:32:30.319 [YYPush-App] [7837:8487]PushDBHelper.getUnReportedStatistics 
+2019-05-15 16:32:30.320 [YYPush-App] [7837:8487]PushDBHelper.getUnReportedStatistics size = 0
+2019-05-15 16:32:30.702 [YYPush-App] [7837:7923]TokenStore.getSysToken:  
+2019-05-15 16:32:30.704 [YYPush-App] [7837:7923]TokenStore.getFcmToken: dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-15 16:32:30.705 [YYPush-App] [7837:7923]YYTokenBindHttp.bindAccount, connect to Production Environment
+2019-05-15 16:32:30.715 [YYPush-App] [7837:7923]YYTokenBindHttp.bindAccount, call asyncSubmitFrom, appid = 1236618350, account = 139608367
+2019-05-15 16:32:30.716 [YYPush-App] [7837:8494]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = appBindReqByHttpCnt
+2019-05-15 16:32:30.717 [YYPush-App] [7837:8494]ReportsMetrics::reportReturnCode, scode = 0, uri = AppBindByHttpState, code = appBindReqByHttpCnt
+2019-05-15 16:32:30.745 [YYPush-App] [7837:8494]YYTokenBindHttp.isTokenValid yytoken is not null
+2019-05-15 16:32:30.746 [YYPush-App] [7837:8494]TokenStore.getFcmToken: dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-15 16:32:30.747 [YYPush-App] [7837:8494]YYTokenBindHttp.isTokenValid fcmToken is not empty
+2019-05-15 16:32:30.748 [YYPush-App] [7837:8494]YYTokenBindHttp.doSubmit start to upload
+2019-05-15 16:32:31.271 [YYPush-App] [7837:8494]YYTokenBindHttp.doSubmit, mResult.content = { "uri": 1078276,"appID": 1236618350,"account": "139608367","resCode": 200}
+2019-05-15 16:32:31.283 [YYPush-App] [7837:8494]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = AppBindResByHttpEventId
+2019-05-15 16:32:31.284 [YYPush-App] [7837:8494]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = appBindResByHttpSucCnt
+2019-05-15 16:32:31.285 [YYPush-App] [7837:8494]ReportsMetrics::reportReturnCode, scode = 0, uri = AppBindByHttpState, code = appBindResByHttpSucCnt
+2019-05-15 16:32:31.287 [YYPush-App] [7837:8494]TokenStore.dispatchBindRes, appId/account/rescode = 1236618350/139608367/200
+2019-05-15 16:32:31.288 [YYPush-App] [7837:7837]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-15 16:32:31.289 [YYPush-App] [7837:7837]YYPushMsgReceiver.onReceive intent contains reg push app res.
+2019-05-15 16:32:43.793 [YYPush-App] [7837:8467]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-15 16:32:43.794 [YYPush-App] [7837:8467]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-15 16:32:43.800 [YYPush-App] [7837:8467]YYPushDeviceInfoHttp.doSubmit yytoken is not null
+2019-05-15 16:32:43.801 [YYPush-App] [7837:8467]YYPushDeviceInfoHttp.doSubmit start to upload deviceinfo by http
+2019-05-15 16:32:44.384 [YYPush-App] [7837:8467]YYPushDeviceInfoHttp.doSubmit result content:{ "uri": 1082116,"appID": 1236618350,"resCode": 200,"tokenID": "000002029413791309db","thirdToken":[{ "token": "dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6","type": 128}]}
+2019-05-15 16:32:44.388 [YYPush-App] [7837:8467]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-15 16:32:44.405 [YYPush-App] [7837:8467]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-15 16:32:44.406 [YYPush-App] [7837:8467]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-15 16:32:58.796 [YYPush-App] [7837:9424]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-15 16:32:58.806 [YYPush-App] [7837:9424]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-15 16:32:58.807 [YYPush-App] [7837:9424]YYPushDeviceInfoHttp.doSubmit thirdparty token has already uploaded, do not upload
+2019-05-15 16:32:58.808 [YYPush-App] [7837:9424]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-15 16:32:58.809 [YYPush-App] [7837:9424]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-15 16:32:58.810 [YYPush-App] [7837:9424]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-15 16:33:13.795 [YYPush-App] [7837:9847]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-15 16:33:13.796 [YYPush-App] [7837:9847]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-15 16:33:13.798 [YYPush-App] [7837:9847]YYPushDeviceInfoHttp.doSubmit thirdparty token has already uploaded, do not upload
+2019-05-15 16:33:13.801 [YYPush-App] [7837:9847]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-15 16:33:13.802 [YYPush-App] [7837:9847]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-15 16:33:13.803 [YYPush-App] [7837:9847]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-15 17:02:20.284 [YYPush-App] [25286:25925]---- log start [YYPush-App] 3.0.670 ----
+2019-05-15 17:02:21.432 [YYPush-App] [25286:25925]YYPush.asyncinitAllPush use ThirdPartyPush, manufacturer=OPPO
+2019-05-15 17:02:21.433 [YYPush-App] [25286:25925]PushReporter.setMetricsScodeFromManifest, will upload thirdparty tokenstate, get metricsScode from AndroidManifest, metricsScode = 0
+2019-05-15 17:02:21.434 [YYPush-App] [25286:25925]PushReporter.initHiidoSdk, begin to initHiidoSdk.
+2019-05-15 17:02:21.435 [YYPush-App] [25286:25925]YYPushDeviceInfoHttp.doReportThiradpartyTokenTask connect to Production Environment
+2019-05-15 17:02:21.437 [YYPush-App] [25286:25925]YYTokenLoginHttp.registerYYPush, begin to registerYYPush.
+2019-05-15 17:02:21.452 [YYPush-App] [25286:25925]YYTokenLoginHttp.registerYYPush, login to Production Environment
+2019-05-15 17:02:21.458 [YYPush-App] [25286:25925]YYPush.registerYYPush, call syncSubmitFrom, appid = 1236618350
+2019-05-15 17:02:21.462 [YYPush-App] [25286:25925]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = YYLoginReqByHttpCnt
+2019-05-15 17:02:21.465 [YYPush-App] [25286:25925]ReportsMetrics::reportReturnCode, scode = 0, uri = YYLoginstate, code = YYLoginReqByHttpCnt
+2019-05-15 17:02:21.472 [YYPush-App] [25286:25925]YYTokenLoginHttp.doSubmit start to upload
+2019-05-15 17:02:22.281 [YYPush-App] [25286:25369]TokenStore.getSysToken:  
+2019-05-15 17:02:22.293 [YYPush-App] [25286:25369]TokenStore.getFcmToken: dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-15 17:02:22.294 [YYPush-App] [25286:25369]YYTokenBindHttp.bindAccount, connect to Production Environment
+2019-05-15 17:02:22.299 [YYPush-App] [25286:25369]YYTokenBindHttp.bindAccount, call asyncSubmitFrom, appid = 1236618350, account = 139608367
+2019-05-15 17:02:22.300 [YYPush-App] [25286:26004]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = appBindReqByHttpCnt
+2019-05-15 17:02:22.301 [YYPush-App] [25286:26004]ReportsMetrics::reportReturnCode, scode = 0, uri = AppBindByHttpState, code = appBindReqByHttpCnt
+2019-05-15 17:02:22.303 [YYPush-App] [25286:26004]YYTokenBindHttp.isTokenValid yytoken is null
+2019-05-15 17:02:22.639 [YYPush-App] [25286:25925]YYTokenLoginHttp.doSubmit, mResult.content = { "uri": 775684,"deviceID": "9acff05988c48d125892cd79104659b3","tokenID": "000002029413791309db","resCode": 200,"ctrlPolicy":{ "pixelSwitch": "true"}}
+2019-05-15 17:02:22.643 [YYPush-App] [25286:25925]TokenStore.dispatcherToken, token from: yypush,value:000002029413791309db
+2019-05-15 17:02:22.645 [YYPush-App] [25286:25925]TokenStore.addToken, type = yypush,token = 000002029413791309db
+2019-05-15 17:02:22.659 [YYPush-App] [25286:25925]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = YYLoginResByHttpSucCnt
+2019-05-15 17:02:22.661 [YYPush-App] [25286:25925]ReportsMetrics::reportReturnCode, scode = 0, uri = YYLoginstate, code = YYLoginResByHttpSucCnt
+2019-05-15 17:02:22.662 [YYPush-App] [25286:25925]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = YyTokenResEventId
+2019-05-15 17:02:22.662 [YYPush-App] [25286:25286]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-15 17:02:22.666 [YYPush-App] [25286:25286]YYPushMsgReceiver.onReceive intent contains token, token=000002029413791309db, tokentype = yypush
+2019-05-15 17:02:22.668 [YYPush-App] [25286:25925]YYPush.isJsonObject exception:org.json.JSONException: Value dB_E1oVvPNk of type java.lang.String cannot be converted to JSONObject
+2019-05-15 17:02:22.669 [YYPush-App] [25286:25925]YYPush.asyncinitAllPush Fcm Token:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-15 17:02:22.672 [YYPush-App] [25286:25925]TokenStore.dispatcherToken, token from: FCM,value:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-15 17:02:22.677 [YYPush-App] [25286:25925]TokenStore.addToken, type = FCM,token = dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-15 17:02:22.678 [YYPush-App] [25286:25925]PushDBHelper.updateStrKey2StrVal, key=DBKeyFcmToken, value=dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-15 17:02:22.700 [YYPush-App] [25286:25286]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-15 17:02:22.701 [YYPush-App] [25286:25286]YYPushMsgReceiver.onReceive intent contains token, token=dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6, tokentype = FCM
+2019-05-15 17:02:22.705 [YYPush-App] [25286:25925]YYPush.asyncinitAllPush, call IYYPushTokenCallback.onSuccess, token = fcm:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-15 17:02:22.708 [YYPush-App] [25286:25925]SystemUtil.isMiUi not xiaomiphone exception:java.io.FileNotFoundException: /system/build.prop (Permission denied)
+2019-05-15 17:02:22.711 [YYPush-App] [25286:25925]TokenStore.getUnReportedStasticsFromDb
+2019-05-15 17:02:22.713 [YYPush-App] [25286:25925]PushDBHelper.getUnReportedStatistics 
+2019-05-15 17:02:22.714 [YYPush-App] [25286:25925]PushDBHelper.getUnReportedStatistics size = 0
+2019-05-15 17:02:22.719 [YYPush-App] [25286:25925]YYPush.asyncinitAllPush , db has no reportStastics
+2019-05-15 17:02:22.720 [YYPush-App] [25286:25373]YYSetTagHttp.setTag connect to Production Environment
+2019-05-15 17:02:22.722 [YYPush-App] [25286:26007]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = setTagReqByHttpCnt
+2019-05-15 17:02:22.723 [YYPush-App] [25286:26007]ReportsMetrics::reportReturnCode, scode = 0, uri = SetTagByHttpState, code = setTagReqByHttpCnt
+2019-05-15 17:02:22.726 [YYPush-App] [25286:26007]YYSetTagHttp.doSubmit yytoken is not null
+2019-05-15 17:02:22.727 [YYPush-App] [25286:26007]YYSetTagHttp.doSubmit start to upload
+2019-05-15 17:02:23.748 [YYPush-App] [25286:26007]YYSetTagHttp.doSubmit mResult content:{ "uri": 1080324,"appID": 1236618350,"resCode": 200}
+2019-05-15 17:02:23.751 [YYPush-App] [25286:26007]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = SetTagResEventId
+2019-05-15 17:02:23.752 [YYPush-App] [25286:26007]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = setTagResByHttpSucCnt
+2019-05-15 17:02:23.754 [YYPush-App] [25286:26007]ReportsMetrics::reportReturnCode, scode = 0, uri = SetTagByHttpState, code = setTagResByHttpSucCnt
+2019-05-15 17:02:23.755 [YYPush-App] [25286:26007]TokenStore.dispatchSetTagRes, appID/rescode = 1236618350/200
+2019-05-15 17:02:23.763 [YYPush-App] [25286:25286]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-15 17:02:23.764 [YYPush-App] [25286:25286]YYPushMsgReceiver.onReceive intent contains set tag res.
+2019-05-15 17:02:27.807 [YYPush-App] [25286:26004]YYTokenBindHttp.isTokenValid yytoken is not null
+2019-05-15 17:02:27.808 [YYPush-App] [25286:26004]TokenStore.getFcmToken: dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-15 17:02:27.809 [YYPush-App] [25286:26004]YYTokenBindHttp.isTokenValid fcmToken is not empty
+2019-05-15 17:02:27.812 [YYPush-App] [25286:26004]YYTokenBindHttp.doSubmit start to upload
+2019-05-15 17:02:28.745 [YYPush-App] [25286:26004]YYTokenBindHttp.doSubmit, mResult.content = { "uri": 1078276,"appID": 1236618350,"account": "139608367","resCode": 200}
+2019-05-15 17:02:28.748 [YYPush-App] [25286:26004]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = AppBindResByHttpEventId
+2019-05-15 17:02:28.750 [YYPush-App] [25286:26004]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = appBindResByHttpSucCnt
+2019-05-15 17:02:28.751 [YYPush-App] [25286:26004]ReportsMetrics::reportReturnCode, scode = 0, uri = AppBindByHttpState, code = appBindResByHttpSucCnt
+2019-05-15 17:02:28.752 [YYPush-App] [25286:26004]TokenStore.dispatchBindRes, appId/account/rescode = 1236618350/139608367/200
+2019-05-15 17:02:28.757 [YYPush-App] [25286:25286]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-15 17:02:28.758 [YYPush-App] [25286:25286]YYPushMsgReceiver.onReceive intent contains reg push app res.
+2019-05-15 17:02:36.267 [YYPush-App] [25286:25965]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-15 17:02:36.268 [YYPush-App] [25286:25965]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-15 17:02:36.270 [YYPush-App] [25286:25965]YYPushDeviceInfoHttp.doSubmit yytoken is not null
+2019-05-15 17:02:36.271 [YYPush-App] [25286:25965]YYPushDeviceInfoHttp.doSubmit start to upload deviceinfo by http
+2019-05-15 17:02:36.886 [YYPush-App] [25286:25965]YYPushDeviceInfoHttp.doSubmit result content:{ "uri": 1082116,"appID": 1236618350,"resCode": 200,"tokenID": "000002029413791309db","thirdToken":[{ "token": "dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6","type": 128}]}
+2019-05-15 17:02:36.887 [YYPush-App] [25286:25965]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-15 17:02:36.887 [YYPush-App] [25286:25965]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-15 17:02:36.888 [YYPush-App] [25286:25965]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-16 11:24:25.857 [YYPush-App] [21743:21935]YYPush.asyncinitAllPush use ThirdPartyPush, manufacturer=OPPO
+2019-05-16 11:24:25.865 [YYPush-App] [21743:21935]PushReporter.setMetricsScodeFromManifest, will upload thirdparty tokenstate, get metricsScode from AndroidManifest, metricsScode = 0
+2019-05-16 11:24:25.866 [YYPush-App] [21743:21935]PushReporter.initHiidoSdk, begin to initHiidoSdk.
+2019-05-16 11:24:25.867 [YYPush-App] [21743:21935]YYPushDeviceInfoHttp.doReportThiradpartyTokenTask connect to Production Environment
+2019-05-16 11:24:25.873 [YYPush-App] [21743:21935]YYTokenLoginHttp.registerYYPush, begin to registerYYPush.
+2019-05-16 11:24:25.874 [YYPush-App] [21743:21935]YYTokenLoginHttp.registerYYPush, login to Production Environment
+2019-05-16 11:24:25.875 [YYPush-App] [21743:21935]YYPush.registerYYPush, call syncSubmitFrom, appid = 1236618350
+2019-05-16 11:24:25.876 [YYPush-App] [21743:21935]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = YYLoginReqByHttpCnt
+2019-05-16 11:24:25.876 [YYPush-App] [21743:21935]ReportsMetrics::reportReturnCode, scode = 0, uri = YYLoginstate, code = YYLoginReqByHttpCnt
+2019-05-16 11:24:25.884 [YYPush-App] [21743:21935]YYTokenLoginHttp.doSubmit start to upload
+2019-05-16 11:24:27.844 [YYPush-App] [21743:21800]TokenStore.getSysToken:  
+2019-05-16 11:24:27.846 [YYPush-App] [21743:21800]TokenStore.getFcmToken: dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:24:27.847 [YYPush-App] [21743:21800]YYTokenBindHttp.bindAccount, connect to Production Environment
+2019-05-16 11:24:27.851 [YYPush-App] [21743:21800]YYTokenBindHttp.bindAccount, call asyncSubmitFrom, appid = 1236618350, account = 139608367
+2019-05-16 11:24:27.852 [YYPush-App] [21743:22145]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = appBindReqByHttpCnt
+2019-05-16 11:24:27.853 [YYPush-App] [21743:22145]ReportsMetrics::reportReturnCode, scode = 0, uri = AppBindByHttpState, code = appBindReqByHttpCnt
+2019-05-16 11:24:27.856 [YYPush-App] [21743:22145]YYTokenBindHttp.isTokenValid yytoken is null
+2019-05-16 11:24:33.361 [YYPush-App] [21743:22145]YYTokenBindHttp.isTokenValid yytoken is null
+2019-05-16 11:24:39.385 [YYPush-App] [21743:22145]YYTokenBindHttp.isTokenValid yytoken is null
+2019-05-16 11:24:40.874 [YYPush-App] [21743:21936]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-16 11:24:40.875 [YYPush-App] [21743:21936]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-16 11:24:40.886 [YYPush-App] [21743:21936]YYPushDeviceInfoHttp.doSubmit has no thirdparty token, do not upload
+2019-05-16 11:24:44.578 [YYPush-App] [21743:21935]YYTokenLoginHttp.doSubmit, mResult.content = { "uri": 775684,"deviceID": "9acff05988c48d125892cd79104659b3","tokenID": "000002029413791309db","resCode": 200,"ctrlPolicy":{ "pixelSwitch": "true"}}
+2019-05-16 11:24:44.594 [YYPush-App] [21743:21935]TokenStore.dispatcherToken, token from: yypush,value:000002029413791309db
+2019-05-16 11:24:44.600 [YYPush-App] [21743:21935]TokenStore.addToken, type = yypush,token = 000002029413791309db
+2019-05-16 11:24:44.658 [YYPush-App] [21743:21935]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = YYLoginResByHttpSucCnt
+2019-05-16 11:24:44.659 [YYPush-App] [21743:21935]ReportsMetrics::reportReturnCode, scode = 0, uri = YYLoginstate, code = YYLoginResByHttpSucCnt
+2019-05-16 11:24:44.660 [YYPush-App] [21743:21935]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = YyTokenResEventId
+2019-05-16 11:24:44.664 [YYPush-App] [21743:21935]YYPush.isJsonObject exception:org.json.JSONException: Value dB_E1oVvPNk of type java.lang.String cannot be converted to JSONObject
+2019-05-16 11:24:44.665 [YYPush-App] [21743:21935]YYPush.asyncinitAllPush Fcm Token:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:24:44.666 [YYPush-App] [21743:21935]TokenStore.dispatcherToken, token from: FCM,value:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:24:44.668 [YYPush-App] [21743:21935]TokenStore.addToken, type = FCM,token = dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:24:44.670 [YYPush-App] [21743:21935]PushDBHelper.updateStrKey2StrVal, key=DBKeyFcmToken, value=dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:24:44.722 [YYPush-App] [21743:21743]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-16 11:24:44.724 [YYPush-App] [21743:21743]YYPushMsgReceiver.onReceive intent contains token, token=000002029413791309db, tokentype = yypush
+2019-05-16 11:24:44.757 [YYPush-App] [21743:21935]YYPush.asyncinitAllPush, call IYYPushTokenCallback.onSuccess, token = fcm:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:24:44.758 [YYPush-App] [21743:21809]YYSetTagHttp.setTag connect to Production Environment
+2019-05-16 11:24:44.761 [YYPush-App] [21743:21935]SystemUtil.isMiUi not xiaomiphone exception:java.io.FileNotFoundException: /system/build.prop (Permission denied)
+2019-05-16 11:24:44.762 [YYPush-App] [21743:21935]TokenStore.getUnReportedStasticsFromDb
+2019-05-16 11:24:44.764 [YYPush-App] [21743:21935]PushDBHelper.getUnReportedStatistics 
+2019-05-16 11:24:44.765 [YYPush-App] [21743:21935]PushDBHelper.getUnReportedStatistics size = 0
+2019-05-16 11:24:44.766 [YYPush-App] [21743:21935]YYPush.asyncinitAllPush , db has no reportStastics
+2019-05-16 11:24:44.767 [YYPush-App] [21743:23303]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = setTagReqByHttpCnt
+2019-05-16 11:24:44.768 [YYPush-App] [21743:23303]ReportsMetrics::reportReturnCode, scode = 0, uri = SetTagByHttpState, code = setTagReqByHttpCnt
+2019-05-16 11:24:44.769 [YYPush-App] [21743:23303]YYSetTagHttp.doSubmit yytoken is not null
+2019-05-16 11:24:44.772 [YYPush-App] [21743:23303]YYSetTagHttp.doSubmit start to upload
+2019-05-16 11:24:44.794 [YYPush-App] [21743:21743]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-16 11:24:44.795 [YYPush-App] [21743:21743]YYPushMsgReceiver.onReceive intent contains token, token=dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6, tokentype = FCM
+2019-05-16 11:24:44.892 [YYPush-App] [21743:21936]YYPushDeviceInfoHttp.doSubmit yytoken is not null
+2019-05-16 11:24:44.897 [YYPush-App] [21743:21936]YYPushDeviceInfoHttp.doSubmit start to upload deviceinfo by http
+2019-05-16 11:24:45.885 [YYPush-App] [21743:22145]YYTokenBindHttp.isTokenValid yytoken is not null
+2019-05-16 11:24:45.886 [YYPush-App] [21743:22145]TokenStore.getFcmToken: dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:24:45.886 [YYPush-App] [21743:22145]YYTokenBindHttp.isTokenValid fcmToken is not empty
+2019-05-16 11:24:45.887 [YYPush-App] [21743:22145]YYTokenBindHttp.doSubmit start to upload
+2019-05-16 11:24:46.792 [YYPush-App] [21743:23444]PushFirebaseMessagingService.onMessageReceived receive msg
+2019-05-16 11:24:46.857 [YYPush-App] [21743:23444]PushDBHelper.saveRecvMsg successfully save msgid to db, msgid:6122018986190830871
+2019-05-16 11:24:46.859 [YYPush-App] [21743:23444]TokenStore.dispactherMsg from json msgid=6122018986190830871, channeltype = FCM, payload = {"im":{"session_id":"s_139608367_155680300","from_uid":155680300},"push_source":4,"type":1}, pushid = 365310418878507271
+2019-05-16 11:24:46.862 [YYPush-App] [21743:23444]TokenStore.getFcmToken: dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:24:46.863 [YYPush-App] [21743:23444]PushDBHelper.recordReportStatistics pushchannel:FCM stat:2
+2019-05-16 11:24:46.877 [YYPush-App] [21743:23444]PushDBHelper.recordReportStatistics successfully save msgid to db, msgid:6122018986190830871
+2019-05-16 11:24:46.879 [YYPush-App] [21743:23444]YYPushReportStatisticsHttp.doReportStatisticsByHttp jsonarray：[{"type":128,"msgID":6122018986190830871,"pushID":365310418878507271,"stat":2,"thirdToken":"dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6"}]
+2019-05-16 11:24:46.882 [YYPush-App] [21743:23444]YYPushReportStatisticsHttp.doReportStatisticsByHttp, connect to Production Environment
+2019-05-16 11:24:46.882 [YYPush-App] [21743:23444]PushReporter.reportNotificationEventToHiido, label:FCM, eid:PushMessageArrived
+2019-05-16 11:24:46.896 [YYPush-App] [21743:23450]YYPushReportStatisticsHttp.doSubmit start to upload
+2019-05-16 11:24:46.897 [YYPush-App] [21743:23450]YYPushReportStatisticsHttp.doSubmit yytoken is not null
+2019-05-16 11:24:47.400 [YYPush-App] [21743:21743]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-16 11:24:47.401 [YYPush-App] [21743:21743]YYPushMsgReceiver.onReceive intent contens payload.
+2019-05-16 11:24:53.356 [YYPush-App] [21743:23303]YYSetTagHttp.doSubmit mResult content:{ "uri": 1080324,"appID": 1236618350,"resCode": 200}
+2019-05-16 11:24:53.399 [YYPush-App] [21743:23303]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = SetTagResEventId
+2019-05-16 11:24:53.403 [YYPush-App] [21743:23303]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = setTagResByHttpSucCnt
+2019-05-16 11:24:53.415 [YYPush-App] [21743:23303]ReportsMetrics::reportReturnCode, scode = 0, uri = SetTagByHttpState, code = setTagResByHttpSucCnt
+2019-05-16 11:24:53.416 [YYPush-App] [21743:23303]TokenStore.dispatchSetTagRes, appID/rescode = 1236618350/200
+2019-05-16 11:24:53.425 [YYPush-App] [21743:21743]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-16 11:24:53.427 [YYPush-App] [21743:21743]YYPushMsgReceiver.onReceive intent contains set tag res.
+2019-05-16 11:24:55.879 [YYPush-App] [21743:23085]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-16 11:24:55.880 [YYPush-App] [21743:23085]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-16 11:24:55.886 [YYPush-App] [21743:23085]YYPushDeviceInfoHttp.doSubmit yytoken is not null
+2019-05-16 11:24:55.887 [YYPush-App] [21743:23085]YYPushDeviceInfoHttp.doSubmit start to upload deviceinfo by http
+2019-05-16 11:24:58.352 [YYPush-App] [21743:21936]YYPushDeviceInfoHttp.doSubmit result content:{ "uri": 1082116,"appID": 1236618350,"resCode": 200,"tokenID": "000002029413791309db","thirdToken":[{ "token": "dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6","type": 128}]}
+2019-05-16 11:24:58.359 [YYPush-App] [21743:21936]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-16 11:24:58.364 [YYPush-App] [21743:21936]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-16 11:24:58.367 [YYPush-App] [21743:21936]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-16 11:25:05.999 [YYPush-App] [21743:23085]YYPushDeviceInfoHttp.doSubmit exception:org.apache.http.conn.ConnectTimeoutException: Connect to /149.129.192.83:443 timed out
+2019-05-16 11:25:10.087 [YYPush-App] [21743:23085]YYPushDeviceInfoHttp.doSubmit thirdparty token has already uploaded, do not upload
+2019-05-16 11:25:10.105 [YYPush-App] [21743:23085]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-16 11:25:10.119 [YYPush-App] [21743:23085]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-16 11:25:10.120 [YYPush-App] [21743:23085]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-16 11:25:10.878 [YYPush-App] [21743:23928]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-16 11:25:10.881 [YYPush-App] [21743:23928]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-16 11:25:10.889 [YYPush-App] [21743:23928]YYPushDeviceInfoHttp.doSubmit thirdparty token has already uploaded, do not upload
+2019-05-16 11:25:10.891 [YYPush-App] [21743:23928]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-16 11:25:10.892 [YYPush-App] [21743:23928]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-16 11:25:10.893 [YYPush-App] [21743:23928]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-16 11:25:49.489 [YYPush-App] [21743:23450]YYPushReportStatisticsHttp.doSubmit exception:javax.net.ssl.SSLHandshakeException: Connection closed by peer
+2019-05-16 11:25:53.230 [YYPush-App] [21743:22145]YYTokenBindHttp.doSubmit, mResult.content = { "uri": 1078276,"appID": 1236618350,"account": "139608367","resCode": 200}
+2019-05-16 11:25:53.236 [YYPush-App] [21743:22145]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = AppBindResByHttpEventId
+2019-05-16 11:25:53.238 [YYPush-App] [21743:22145]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = appBindResByHttpSucCnt
+2019-05-16 11:25:53.240 [YYPush-App] [21743:22145]ReportsMetrics::reportReturnCode, scode = 0, uri = AppBindByHttpState, code = appBindResByHttpSucCnt
+2019-05-16 11:25:53.243 [YYPush-App] [21743:22145]TokenStore.dispatchBindRes, appId/account/rescode = 1236618350/139608367/200
+2019-05-16 11:25:53.255 [YYPush-App] [21743:21743]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-16 11:25:53.261 [YYPush-App] [21743:21743]YYPushMsgReceiver.onReceive intent contains reg push app res.
+2019-05-16 11:25:59.477 [YYPush-App] [21743:23450]YYPushReportStatisticsHttp.doSubmit start to upload
+2019-05-16 11:25:59.483 [YYPush-App] [21743:23450]YYPushReportStatisticsHttp.doSubmit yytoken is not null
+2019-05-16 11:26:30.365 [YYPush-App] [21743:23450]YYPushReportStatisticsHttp.doSubmit responContent:{ "uri": 1057540,"resCode": 200,"tokenID": "000002029413791309db","pushMsgStat":[{ "type": 128,"msgID": 6122018986190830871,"pushID": 365310418878507271,"stat": 2,"thirdToken": "dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6"}]}
+2019-05-16 11:26:30.368 [YYPush-App] [21743:23450]PushDBHelper.clearReportStatistics, msgid : 6122018986190830871, state:2
+2019-05-16 11:26:30.389 [YYPush-App] [21743:23450]PushDBHelper.clearReportStatistics, delete msg from db
+2019-05-16 11:26:30.390 [YYPush-App] [21743:23450]YYPushReportStatisticsHttp.reportTask run report success
+2019-05-16 11:26:30.392 [YYPush-App] [21743:23450]TokenStore.getUnReportedStasticsFromDb
+2019-05-16 11:26:30.393 [YYPush-App] [21743:23450]PushDBHelper.getUnReportedStatistics 
+2019-05-16 11:26:30.394 [YYPush-App] [21743:23450]PushDBHelper.getUnReportedStatistics size = 0
+2019-05-16 11:35:52.860 [YYPush-App] [1847:2602]YYPush.asyncinitAllPush use ThirdPartyPush, manufacturer=OPPO
+2019-05-16 11:35:52.870 [YYPush-App] [1847:2602]PushReporter.setMetricsScodeFromManifest, will upload thirdparty tokenstate, get metricsScode from AndroidManifest, metricsScode = 0
+2019-05-16 11:35:52.871 [YYPush-App] [1847:2602]PushReporter.initHiidoSdk, begin to initHiidoSdk.
+2019-05-16 11:35:52.873 [YYPush-App] [1847:2602]YYPushDeviceInfoHttp.doReportThiradpartyTokenTask connect to Production Environment
+2019-05-16 11:35:52.884 [YYPush-App] [1847:2602]YYTokenLoginHttp.registerYYPush, begin to registerYYPush.
+2019-05-16 11:35:52.885 [YYPush-App] [1847:2602]YYTokenLoginHttp.registerYYPush, login to Production Environment
+2019-05-16 11:35:52.886 [YYPush-App] [1847:2602]YYPush.registerYYPush, call syncSubmitFrom, appid = 1236618350
+2019-05-16 11:35:52.888 [YYPush-App] [1847:2602]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = YYLoginReqByHttpCnt
+2019-05-16 11:35:52.910 [YYPush-App] [1847:2602]ReportsMetrics::reportReturnCode, scode = 0, uri = YYLoginstate, code = YYLoginReqByHttpCnt
+2019-05-16 11:35:52.912 [YYPush-App] [1847:2602]YYTokenLoginHttp.doSubmit start to upload
+2019-05-16 11:35:54.835 [YYPush-App] [1847:1939]TokenStore.getSysToken:  
+2019-05-16 11:35:54.840 [YYPush-App] [1847:1939]TokenStore.getFcmToken: dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:35:54.842 [YYPush-App] [1847:1939]YYTokenBindHttp.bindAccount, connect to Production Environment
+2019-05-16 11:35:54.848 [YYPush-App] [1847:1939]YYTokenBindHttp.bindAccount, call asyncSubmitFrom, appid = 1236618350, account = 139608367
+2019-05-16 11:35:54.850 [YYPush-App] [1847:2697]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = appBindReqByHttpCnt
+2019-05-16 11:35:54.851 [YYPush-App] [1847:2697]ReportsMetrics::reportReturnCode, scode = 0, uri = AppBindByHttpState, code = appBindReqByHttpCnt
+2019-05-16 11:35:54.852 [YYPush-App] [1847:2697]YYTokenBindHttp.isTokenValid yytoken is null
+2019-05-16 11:35:55.552 [YYPush-App] [1847:2602]YYTokenLoginHttp.doSubmit, mResult.content = { "uri": 775684,"deviceID": "9acff05988c48d125892cd79104659b3","tokenID": "000002029413791309db","resCode": 200,"ctrlPolicy":{ "pixelSwitch": "true"}}
+2019-05-16 11:35:55.563 [YYPush-App] [1847:2602]TokenStore.dispatcherToken, token from: yypush,value:000002029413791309db
+2019-05-16 11:35:55.565 [YYPush-App] [1847:2602]TokenStore.addToken, type = yypush,token = 000002029413791309db
+2019-05-16 11:35:55.592 [YYPush-App] [1847:2602]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = YYLoginResByHttpSucCnt
+2019-05-16 11:35:55.593 [YYPush-App] [1847:2602]ReportsMetrics::reportReturnCode, scode = 0, uri = YYLoginstate, code = YYLoginResByHttpSucCnt
+2019-05-16 11:35:55.594 [YYPush-App] [1847:2602]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = YyTokenResEventId
+2019-05-16 11:35:55.601 [YYPush-App] [1847:2602]YYPush.isJsonObject exception:org.json.JSONException: Value dB_E1oVvPNk of type java.lang.String cannot be converted to JSONObject
+2019-05-16 11:35:55.622 [YYPush-App] [1847:2602]YYPush.asyncinitAllPush Fcm Token:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:35:55.627 [YYPush-App] [1847:2602]TokenStore.dispatcherToken, token from: FCM,value:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:35:55.638 [YYPush-App] [1847:2602]TokenStore.addToken, type = FCM,token = dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:35:55.643 [YYPush-App] [1847:2602]PushDBHelper.updateStrKey2StrVal, key=DBKeyFcmToken, value=dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:35:55.644 [YYPush-App] [1847:1847]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-16 11:35:55.645 [YYPush-App] [1847:1847]YYPushMsgReceiver.onReceive intent contains token, token=000002029413791309db, tokentype = yypush
+2019-05-16 11:35:55.667 [YYPush-App] [1847:2602]YYPush.asyncinitAllPush, call IYYPushTokenCallback.onSuccess, token = fcm:dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:35:55.668 [YYPush-App] [1847:1938]YYSetTagHttp.setTag connect to Production Environment
+2019-05-16 11:35:55.672 [YYPush-App] [1847:2602]SystemUtil.isMiUi not xiaomiphone exception:java.io.FileNotFoundException: /system/build.prop (Permission denied)
+2019-05-16 11:35:55.678 [YYPush-App] [1847:2602]TokenStore.getUnReportedStasticsFromDb
+2019-05-16 11:35:55.681 [YYPush-App] [1847:2602]PushDBHelper.getUnReportedStatistics 
+2019-05-16 11:35:55.683 [YYPush-App] [1847:2602]PushDBHelper.getUnReportedStatistics size = 0
+2019-05-16 11:35:55.684 [YYPush-App] [1847:2602]YYPush.asyncinitAllPush , db has no reportStastics
+2019-05-16 11:35:55.685 [YYPush-App] [1847:2701]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = setTagReqByHttpCnt
+2019-05-16 11:35:55.687 [YYPush-App] [1847:2701]ReportsMetrics::reportReturnCode, scode = 0, uri = SetTagByHttpState, code = setTagReqByHttpCnt
+2019-05-16 11:35:55.689 [YYPush-App] [1847:1847]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-16 11:35:55.690 [YYPush-App] [1847:1847]YYPushMsgReceiver.onReceive intent contains token, token=dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6, tokentype = FCM
+2019-05-16 11:35:55.691 [YYPush-App] [1847:2701]YYSetTagHttp.doSubmit yytoken is not null
+2019-05-16 11:35:55.692 [YYPush-App] [1847:2701]YYSetTagHttp.doSubmit start to upload
+2019-05-16 11:35:58.833 [YYPush-App] [1847:2701]YYSetTagHttp.doSubmit mResult content:{ "uri": 1080324,"appID": 1236618350,"resCode": 200}
+2019-05-16 11:35:58.836 [YYPush-App] [1847:2701]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = SetTagResEventId
+2019-05-16 11:35:58.837 [YYPush-App] [1847:2701]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = setTagResByHttpSucCnt
+2019-05-16 11:35:58.838 [YYPush-App] [1847:2701]ReportsMetrics::reportReturnCode, scode = 0, uri = SetTagByHttpState, code = setTagResByHttpSucCnt
+2019-05-16 11:35:58.840 [YYPush-App] [1847:2701]TokenStore.dispatchSetTagRes, appID/rescode = 1236618350/200
+2019-05-16 11:35:58.850 [YYPush-App] [1847:1847]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-16 11:35:58.851 [YYPush-App] [1847:1847]YYPushMsgReceiver.onReceive intent contains set tag res.
+2019-05-16 11:36:00.355 [YYPush-App] [1847:2697]YYTokenBindHttp.isTokenValid yytoken is not null
+2019-05-16 11:36:00.356 [YYPush-App] [1847:2697]TokenStore.getFcmToken: dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6
+2019-05-16 11:36:00.357 [YYPush-App] [1847:2697]YYTokenBindHttp.isTokenValid fcmToken is not empty
+2019-05-16 11:36:00.358 [YYPush-App] [1847:2697]YYTokenBindHttp.doSubmit start to upload
+2019-05-16 11:36:07.884 [YYPush-App] [1847:2605]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-16 11:36:07.885 [YYPush-App] [1847:2605]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-16 11:36:07.928 [YYPush-App] [1847:2605]YYPushDeviceInfoHttp.doSubmit yytoken is not null
+2019-05-16 11:36:07.930 [YYPush-App] [1847:2605]YYPushDeviceInfoHttp.doSubmit start to upload deviceinfo by http
+2019-05-16 11:36:09.938 [YYPush-App] [1847:2697]YYTokenBindHttp.doSubmit, mResult.content = { "uri": 1078276,"appID": 1236618350,"account": "139608367","resCode": 200}
+2019-05-16 11:36:09.940 [YYPush-App] [1847:2697]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = AppBindResByHttpEventId
+2019-05-16 11:36:09.942 [YYPush-App] [1847:2697]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = appBindResByHttpSucCnt
+2019-05-16 11:36:09.944 [YYPush-App] [1847:2697]ReportsMetrics::reportReturnCode, scode = 0, uri = AppBindByHttpState, code = appBindResByHttpSucCnt
+2019-05-16 11:36:09.945 [YYPush-App] [1847:2697]TokenStore.dispatchBindRes, appId/account/rescode = 1236618350/139608367/200
+2019-05-16 11:36:10.128 [YYPush-App] [1847:1847]YYPushMsgReceiver.onReceive received broadcast, intent action=com.yy.pushsrv.1236618350
+2019-05-16 11:36:10.133 [YYPush-App] [1847:1847]YYPushMsgReceiver.onReceive intent contains reg push app res.
+2019-05-16 11:36:13.146 [YYPush-App] [1847:2605]YYPushDeviceInfoHttp.doSubmit result content:{ "uri": 1082116,"appID": 1236618350,"resCode": 200,"tokenID": "000002029413791309db","thirdToken":[{ "token": "dB_E1oVvPNk:APA91bGrA-kSaGXA1S_z4WCQ_HFa9-PsRkO5bpPtPDcDdvNFL3xceRQLKeTfAhTXb8AvqKfw2yzC43FMDXY_9HvGZpiJllL1C_yLnHyKgxc-RJPgDPkFKnUr8kE8TTPDqvoaU3LEbDS6","type": 128}]}
+2019-05-16 11:36:13.148 [YYPush-App] [1847:2605]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-16 11:36:13.149 [YYPush-App] [1847:2605]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-16 11:36:13.150 [YYPush-App] [1847:2605]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-16 11:36:22.886 [YYPush-App] [1847:2836]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-16 11:36:23.494 [YYPush-App] [1847:2836]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-16 11:36:23.805 [YYPush-App] [1847:2836]YYPushDeviceInfoHttp.doSubmit thirdparty token has already uploaded, do not upload
+2019-05-16 11:36:23.808 [YYPush-App] [1847:2836]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-16 11:36:23.809 [YYPush-App] [1847:2836]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-16 11:36:23.827 [YYPush-App] [1847:2836]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
+2019-05-16 11:36:37.887 [YYPush-App] [1847:3278]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfoReqByHttpCnt
+2019-05-16 11:36:37.889 [YYPush-App] [1847:3278]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfoReqByHttpCnt
+2019-05-16 11:36:37.891 [YYPush-App] [1847:3278]YYPushDeviceInfoHttp.doSubmit thirdparty token has already uploaded, do not upload
+2019-05-16 11:36:37.893 [YYPush-App] [1847:3278]PushReporter.newReportSucEvtToHiido: upload success to hiido, aid = PushDeviceinfoResEventId
+2019-05-16 11:36:37.895 [YYPush-App] [1847:3278]PushReporter.newReportReturnCodeToMetrics: upload to metrics, code = pushDeviceinfogResByHttpSucCnt
+2019-05-16 11:36:37.897 [YYPush-App] [1847:3278]ReportsMetrics::reportReturnCode, scode = 0, uri = PushDeviceinfoByHttpState, code = pushDeviceinfogResByHttpSucCnt
